@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estiloPaginaInicial.css">
+</head>
+
+<body>
+    <h1>TELA DE CADASTRO</h1>
+    <form action="cadastro.php" method="post">
+
+        <div class='campo'>
+            <label>Nome*</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome do cliente" required>
+        </div>
+        <div class='campo'>
+            <label>Data*</label>
+            <input type="date" name="data" id="data" required>
+        </div>
+        <div class='campo'>
+            <label>Vendedor*</label>
+            <input type="text" name="vendedor" id="vendedor" placeholder="Nome do vendedor" required>
+        </div>
+
+        <div class='campo'>
+            <label>Descrição*</label>
+            <input type="text" name="descricao" id="descricao" placeholder="Descrição do produto" required>
+        </div>
+
+        <div class='campo'>
+            <label>Valor*</label>
+            <input type="text" name="valor" id="valor" placeholder="Valor do produto" required>
+        </div>
+        <div class='Enviar'>
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+
+    <form class='consultaPadrao' action="padrao.php" method="POST">
+        <input type="submit" name="consulta-completa" value="Consulta Padrão">
+    </form>
+
+    <form class='personalizada' action="consultaPersonalizada.html">
+        <input type="submit" name="consulta-completa" value="Consulta Personalizada">
+    </form>
+
+</body>
+
+
+</html>

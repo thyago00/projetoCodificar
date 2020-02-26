@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dados de consulta</title>
+    <link rel="stylesheet" href="estiloConsultaPersonalizada.css">
+</head>
+
+<body>
+    <h1>Dados de Pesquisa</h1>
+
+    <form name="Cadastro" action="personalizada.php" method="POST">
+        <div class='campo'>
+            <label>Nome</label>
+            <input type="Text" name="nome" id="nome" placeholder="Nome do cliente">
+        </div>
+
+        <div class='campo'>
+            <label>Vendedor</label>
+            <input type="Text" name="vendedor" id="vendedor" placeholder="Nome do vendedor">
+        </div>
+
+        <div class='campo'>
+            <label>Data</label>
+            <input type="date" name="data" id="data">
+        </div>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+
+</html>
