@@ -19,8 +19,13 @@ O projeto começa pelo arquivo "paginaInicial.html", a partir dessa página que 
 ![paginaInicial](https://user-images.githubusercontent.com/42790322/75305122-f2461400-5823-11ea-8f84-4c7ffcb6ad20.PNG)
 
 O botão "Enviar" tem o papel de inserir os dados informados no formulário para o banco de dados.
+
 O botão "Consulta Padrão" irá redirecionar para uma outra página com todos os dados presentes no banco de dados.
+
 O botão "Consulta Personalizada" irá redirecionar para uma outra página para que seja inserido filtros de pesquisa, sendo eles nome do cliente, nome do vendedor e data da venda.
+
+![dadosPesquisa](https://user-images.githubusercontent.com/42790322/75305939-4e119c80-5826-11ea-9fde-bc0c50028bc8.PNG)
+Após enviar os filtros desejados, será redirecionado para uma página com os dados no banco de dados.
 
 ## Guia
 Para executar o projeto é necessário ter a linguagem php em seu path de variáveis e ter um servidor para executar o projeto na web, além de um editor de texto ou uma IDE para escrever o código.
