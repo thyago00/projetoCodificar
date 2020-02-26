@@ -1,5 +1,5 @@
 ## Descrição
-Para participar do processo seletivo eu escolhi resolver o exercìcio número 1. O objetivo do exercício era a criação de um CRUD para um cliente poder facilitar o monitoramento de suas vendas.
+Para participar do processo seletivo eu escolhi resolver o exercício número 1. O objetivo do exercício era a criação de um CRUD para um cliente poder facilitar o monitoramento de suas vendas.
 
 ## Ferramentas
 Para a realização do exercício eu utilizei as seguintes ferramentas:
