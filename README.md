@@ -22,7 +22,7 @@ O botão "Enviar" tem o papel de inserir os dados informados no formulário para
 
 O botão "Consulta Padrão" irá redirecionar para uma outra página com todos os dados presentes no banco de dados.
 
-O botão "Consulta Personalizada" irá redirecionar para uma outra página para que seja inserido filtros de pesquisa, sendo eles nome do cliente, nome do vendedor e data da venda. Por exemplo:
+O botão "Consulta Personalizada" irá redirecionar para uma outra página onde será inserido os filtros de pesquisa na consulta do banco de dados exigidos na ordem 3.1 do exercício.
 
 ![dadosPesquisa](https://user-images.githubusercontent.com/42790322/75305939-4e119c80-5826-11ea-9fde-bc0c50028bc8.PNG)
 
@@ -30,7 +30,7 @@ Após inserir os filtros desejados, basta clicar em "Enviar" e será redireciona
 
 ## Necessidades do projeto
 Para executar o projeto é de suma importância:
-- Extensão do php, html5, css3;
+- Extensão do php, html5 e css3;
 - Banco de dados;
 - Ter o php em seu path de variáveis;
 - Um editor de texto ou uma IDE;
