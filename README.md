@@ -16,7 +16,11 @@ E as linguagens utilizadas foram:
 ## Modo de Funcionamento
 O projeto começa pelo arquivo "paginaInicial.html", a partir dessa página que será possivel realizar um cadastro e/ou realizar consultas no banco de dados atráves de outras páginas.
 
-![Image](paginaInicial.jpg)
+![paginaInicial](https://user-images.githubusercontent.com/42790322/75305122-f2461400-5823-11ea-8f84-4c7ffcb6ad20.PNG)
+
+O botão "Enviar" tem o papel de inserir os dados informados no formulário para o banco de dados.
+O botão "Consulta Padrão" irá redirecionar para uma outra página com todos os dados presentes no banco de dados.
+O botão "Consulta Personalizada" irá redirecionar para uma outra página para que seja inserido filtros de pesquisa, sendo eles nome do cliente, nome do vendedor e data da venda.
 
 ## Guia
 Para executar o projeto é necessário ter a linguagem php em seu path de variáveis e ter um servidor para executar o projeto na web, além de um editor de texto ou uma IDE para escrever o código.
