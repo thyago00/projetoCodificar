@@ -36,7 +36,7 @@ Para executar o projeto é de suma importância:
 - Um editor de texto ou uma IDE;
 - Um servidor para executar o projeto.
 
-Segue em anexo os links para baixar tais ferramentas.
+Os links para baixar tais ferramentas.
 
 [Xampp](https://www.apachefriends.org/pt_br/download.html)
 
